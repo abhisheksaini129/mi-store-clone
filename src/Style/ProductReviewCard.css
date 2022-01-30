@@ -1,0 +1,26 @@
+.ProductReviewCard{
+    margin: 1vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all .5s;
+}
+.ProductReviewCard:hover{
+    box-shadow: 0 6px 15px  rgba(53,53,53,.363);
+    transform: translateY(-.3vmax);
+}
+.ProductReviewCard h5{
+    margin: 2vmax 0 0.5vmax 2vmax;
+    color: rgb(94,94,94);
+}
+.ProductReviewCard span{
+    color: rgb(94,94,94);
+    font-size: 1vmax;
+    font-weight: 500;
+    margin: 0 2vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ProductReviewCard b{
+    color: orangered;
+    font-size: 1vmax;
+}
